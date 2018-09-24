@@ -6,9 +6,7 @@
 	margin: 0 auto;
 	width: 100%;
 	height: auto;
-	/*background: green;*/
 }
-/*header*/
 .khung .header{
 	margin: 0 auto;
 	width: 100%;
@@ -63,7 +61,6 @@ a:hover{
 	border-radius: 10px;
 	background: yellow;
 }
-/*content*/
 .khung .content{
 	width: 100%;
 	height: 800px;
@@ -128,7 +125,6 @@ a:hover{
 	height: 290px;
 }
 .content .box1{
-	clear: both;
 	width: 100%;
 	height: 300px;
 	background: black;
@@ -146,12 +142,13 @@ a:hover{
 .b .title1{
 	width: 30%;
 	height: 30px;
-	margin: 0 auto;
-	padding-top: 30px;
-	text-align: center;
+	margin-left: 32%;
+	padding-top: 25px;
+	/*background: green;*/
 }
 .title1 h2{
 	color: white;
+	text-align: center;
 }
 .b .icon{
 	width: 50%;
@@ -193,9 +190,7 @@ a:hover{
 	line-height: 30px;
 	margin-top: 40px;
 }
-/* ket thuc box1 */
 .content .box2{
-	clear: both;
 	width: 100%;
 	height: 700px;
 	padding-top: 20px;
@@ -205,7 +200,7 @@ a:hover{
 	width: 100px;
 	height: 3px;
 	background: orange;
-	margin-left: 42%;
+	margin-left: 42.1%;
 	margin-top: 12px;
 }
 .box2 .circle{
@@ -213,8 +208,7 @@ a:hover{
 	width: 25px;
 	height: 25px;
 	background: white;
-	margin-left: 7px;
-	/*margin-right: 5px;*/
+	margin-left: 5px;
 	border-radius: 999px;
 	border: 2px solid orange;
 
@@ -224,7 +218,8 @@ a:hover{
 	width: 100px;
 	height: 3px;
 	background: orange;
-	margin-right: 42%;
+	margin-left: 5px;
+	margin-right: 42.1%;
 	margin-top: 12px;
 }
 .box2 .title2{
@@ -327,11 +322,134 @@ a:hover{
 	color: red;
 	background: gray;
 }
-/*footer*/
-.khung .foter{
+.content .box3{
 	clear: both;
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+.box3 .titl2{
+	clear: both;
+	margin: 0 auto;
+	width: 35%;
+	height: 120px;
+	margin-top: 50px;
+}
+.box3 .titl2 h2{
+	color: black;
+	text-align: center;
+	font-size: 34px;
+	text-transform: uppercase;
+	line-height: 50px;
+}
+.titl2 b{
+	color: black;
+	font-size: 20px;
+	text-transform: capitalize;
+	padding: 10px;
+	line-height: 50px;
+	margin-left: 55px;
+
+}
+.intro1 .pic2{
+	margin: 0 auto;
+	width: 100%;
+	height: 170px;
+}
+.intro1 .pic2 img{
+	width: 100%;
+	height: 100%;
+}
+.intro1 .p{
+	margin: 0 auto;
+	width: 98%;
+	height: 64.4%;
+	border-left: 3px solid gray;
+	border-right: 3px solid gray;
+	border-bottom: 3px solid gray;
+}
+.p .title4{
+	width: 100%;
+	height: 25%;
+}
+.title4 h2{
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 50px;
+	padding-bottom: 20px;
+}
+.p .text2{
+	width: 100%;
+	height: 75%;
+}
+.text2 .bo{
+	float: left;
+	width: 50%;
+	height:50%;
+}
+.bo p{
+	color: black;
+	text-align: left;
+	padding-left: 20px;
+	font-size: 18px;
+	line-height: 30px;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+.bo .diff p{
+	color: black;
+	text-align: right;
+	padding-right: 20px;
+	font-size: 18px;
+	line-height: 30px;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+.text2 a{
+	display: inline-block;
+	width: 60%;
+	height: 50px;
+	background: black;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50px 80px 0 50px;
+	margin-left: 20%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.text2 a:hover{
+	 color: red;
+	 background: green;
+}
+.khung .foter{
 	width: 100%;
 	height: 50px;
 	background: yellow;
 	margin-top: 10px;
+}
+.foter .copyright{
+	width: 60%;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+}
+.copyright h4{
+	color: white;
+	padding-left: 50px;
+}
+.foter .team{
+	width: 40%;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+}
+.team p{
+	color: white;
+	font-size: 20px;
+	padding-left: 10 0px;
 }
